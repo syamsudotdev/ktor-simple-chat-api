@@ -13,6 +13,7 @@ apply plugin: 'application'
 
 group 'net.mnsam'
 version '0.0.1'
+mainClassName = 'net.mnsam.ApplicationKt'
 
 sourceSets {
     main.kotlin.srcDirs = main.java.srcDirs = ['src']
