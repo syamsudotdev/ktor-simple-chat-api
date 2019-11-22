@@ -19,6 +19,7 @@ body `{"message":"your message"}`
 
 #### Get stored messages
 Get your previously posted message(s) via `http://localhost:8080/message` via HTTP GET method
+
 `curl -X GET http://0.0.0.0:8080/messages`
 
 ### Websocket
