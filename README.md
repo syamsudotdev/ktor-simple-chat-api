@@ -12,13 +12,19 @@ This project will run on `localhost:8080`
 ### HTTP Method
 #### Storing Message
 Send your message to `http://localhost:8080/message` via HTTP POST method
+
 header `Content-Type:application/json`
+
 body `{"message":"your message"}`
+
+Example:
 
 `curl -X POST http://0.0.0.0:8080/messages -H 'Content-Type: application/json' -d '{"message":"something"}'`
 
 #### Get stored messages
 Get your previously posted message(s) via `http://localhost:8080/message` via HTTP GET method
+
+Example:
 
 `curl -X GET http://0.0.0.0:8080/messages`
 
